@@ -1,0 +1,57 @@
+h1 {
+  text-decoration: underline;
+}
+
+img {
+  border-color: blue;
+  border-radius: 3px;
+  border-style: solid;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 3px 5px black;
+}
+body {
+  background-color: lightblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#PFP {
+  width: 500px;
+}
+
+#L {
+  display: revert;
+  margin: revert;
+  height: 100px;
+  width: 500px;
+}
+
+.button {
+  border-color: blue;
+  border-style: solid;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 3px 5px black;
+  background-color: #82b0ff;
+
+  /*PADDING FOR BUTTON */
+  padding: 10px 24px;
+}
+
+.button:hover {
+  background-color: #b4cefa;
+}
+
+.hover {
+  width: 500px;
+  height: 100px;
+}
+
+.hover:hover {
+  opacity: 0.5;
+}
+
+.hover {
+  display: inline-block;
+}
